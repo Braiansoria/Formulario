@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Registro</title>
+</head>
+<body>
+    <div class="container">
+      <h1>Formulario de Registro JS</h1>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form method="post" class="formu">
+            <div class="form-group">
+              <label for="nombre">Nombres</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Nombres" name="nombre">
+            </div>
+            <div class="form-group">
+              <label for="edad">Edad</label>
+              <input type="number" class="form-control" id="edad" placeholder="Edad" name="edad">
+            </div>
+            <div class="form-group">
+              <label for="apellido">Apellidos</label>
+              <input type="text" class="form-control" id="apellido" placeholder="Apellidos" name="apellidos">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+            </div>
+            <div class="form-group">
+              <label for="contraseña">Contraseña</label>
+              <input type="password" class="form-control" id="contraseña" placeholder="Contraseña" name="contraseña">
+            </div>
+            <div class="form-group">
+              <label for="repetir_contraseña">Repetir Contraseña</label>
+              <input type="password" class="form-control" id="repetir_contraseña" placeholder="Repetir Contraseña" name="repetir_contraseña">
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>    
+    <script src="js/validar.js"></script>
+</body>
+</html>
