@@ -49,7 +49,7 @@ campoContraseña.onblur = function(){
 campoRepetirContraseña.onblur = function(){
     if (this.value == ''){
         alert('El campo repetir contraseña no puede estar vacio');
-    }else if(this.value !== campoContraseña ){
+    }else if(this.value != campoContraseña.value){
         alert('Las contraseñas deben coincidir')
     }
 }
